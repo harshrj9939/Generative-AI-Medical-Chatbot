@@ -13,20 +13,20 @@
    cd Generative-AI-Medical-Chatbot
    ```
 
-2. **Create a Conda Environment**
+2. **STEP 01 - Create a Conda Environment**
    ```bash
-   conda create -n llmapp python=3.8 -y
+   conda create -n Aillm python=3.10 -y
    ```
    ```bash
-   conda activate llmapp
+   conda activate Aillm
    ```
 
-3. **Install the Requirements**
+3. **STEP 02 - Install the Requirements**
    ```bash
    pip install -r requirements.txt
    ```
 
-4. **Run the Application**
+4. **STEP 03 - Run the Application**
    ```bash
    python app.py
    ```
